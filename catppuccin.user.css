@@ -1,0 +1,41 @@
+/* ==UserStyle==
+@name           FAP Catppuccin
+@namespace      github.com/svnfrs/fap-catpuccin
+@version        0.0.1
+@description    Soothing dark theme for FAP
+@author         SvnFrs
+==/UserStyle== */
+
+@-moz-document domain("fap.fpt.edu.vn") {
+    /* Insert code here... */
+    body {
+        background-color: #11111b;
+    }
+    h1 {
+        color: #cdd6f4;
+    }
+    td.auto-style1 {
+        background-color: #1e1e2e;
+        color: #cdd6f4;
+    }
+    .appStore {
+        background-color: #1e1e2e;
+    }
+    .playStore {
+        background-color: #1e1e2e;
+    }
+    .breadcrumb {
+        background-color: #11111b;
+    }
+    .parentLogin {
+        background-color: 	#11111b;
+    }
+    .btn-warning {
+        background-image: linear-gradient(36deg, #A100FFFF, #119CFDFF);
+        background-repeat: unset !important;
+    }
+    .btn-warning:active {
+        background-image: linear-gradient(36deg, #A100FFFF, #119CFDFF)
+    }
+
+}
