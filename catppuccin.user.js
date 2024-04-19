@@ -24,8 +24,19 @@
 
     // Select the specific div element
     var parentLogin = document.querySelector('div[style="border: solid 1px #ccc; height: 150px;"]');
-
     parentLogin.classList.add('parentLogin');
 
-    
+    // Select the specific div element without the class 'parentLogin'
+    var studentLogin = document.querySelector('div[style="border: solid 1px #ccc; height: 150px;"]:not(.parentLogin)')
+    studentLogin.classList.add('studentLogin');
+
+    // Select the specific td element containing the table with id "cssTable"
+    var tempFooter = document.querySelector('td > table#cssTable').parentNode;
+
+    tempFooter.classList.add('tempFooter');
+
+    // Select the specific tr element containing the td with class "tempFooter"
+    var footer = document.querySelector('td > table#cssTable.tempFooter').parentNode;
+
+
 })();
