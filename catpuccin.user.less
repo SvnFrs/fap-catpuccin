@@ -62,8 +62,12 @@
         body {
             background-color: @base;
         }
-        h1 {
+        .dummy {
+            height: 30vh;
+        }
+        h1, .k19Texts > b {
             color: @text;
+            font-weight: bold;
         }
         tr, legend {
             border: none;
@@ -96,6 +100,11 @@
             background-image: linear-gradient(36deg, @yellow, @yellow);
             color: @mantle;
         }
+        .btn-primary {
+            background-image: linear-gradient(36deg, @blue, @blue);
+            background-repeat: unset !important;
+            color: @mantle;
+        }
         .col-md-6, .loginFooter {
             background-color: @base;
         }
@@ -108,9 +117,37 @@
         #cssTable td p a {
             color: @accent-color;
         }
-        
-    
-    
+        .campusChooser {
+            margin-left: 4.5vw;
+        }
+        .campusChooser > select {
+            background-image: linear-gradient(36deg, @surface0, @surface0);
+            background-repeat: unset !important;
+            background-color: @base;
+            color: @text;
+        }
+        .campusChooser > select:active,
+        .campusChooser > select:focus {
+            background-image: linear-gradient(36deg, @surface0, @surface0);
+            color: @text;
+        }
+        .k19Texts b {
+            margin-left: 6.8vw;
+        }
+        .googleLogin > span > a {
+            background-color: @red;
+            color: @mantle;
+        }
+        .feIDLogin > span > a {
+            background-color: @sapphire;
+            color: @mantle;
+        }
+        .googleLogin > span > a > span {
+            color: @mantle !important;
+        }
+        .feIDLogin > span > a > span {
+            color: @mantle !important;
+        }
     }
 }
 
