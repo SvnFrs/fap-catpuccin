@@ -36,7 +36,9 @@
     tempFooter.classList.add('tempFooter');
 
     // Select the specific tr element containing the td with class "tempFooter"
-    var footer = document.querySelector('td > table#cssTable.tempFooter').parentNode;
+    var loginFooter = document.querySelector('tr > .tempFooter').parentNode;
+
+    loginFooter.classList.add('loginFooter');
 
 
 })();
